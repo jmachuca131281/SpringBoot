@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Start</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Start</h1>
+        <p th:text="${mensaje}"></p>
+        <p th:text="${saludo}"></p>
+        <br>
+        Nombre: <samp th:text="${persona.nombre}"></samp>
+        Apellido: <samp th:text="${persona.apellido}"></samp>
+        Email: <samp th:text="${persona.email}"></samp><!-- comment -->
+        Teléfono: <samp th:text="${persona.telefono}"></samp>
+    </body>
+</html>
